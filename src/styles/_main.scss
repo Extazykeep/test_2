@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 700px;
+    &__welcome {
+        font-size: 1.7rem;
+        font-weight: 300;
+        margin-bottom: 5rem;
+    }
+    &__title {
+        font-size: calc(2.5em + 0.7vw);
+        font-weight: 400;
+        margin-bottom: 1rem;
+        color: #f3d9f2;
+    }
+    &__description {
+        font-size: 1.3rem;
+        line-height: 1.75;
+        color: #f3d9f2;
+    }
+    &__circle {
+        position: absolute;
+        left: 100px;
+        top: -100px;
+        width: 50%;
+        pointer-events: none;
+    }
+    &__offer {
+        .offer-text {
+            font-size: 1.3em;
+            margin: 2rem 0;
+        }
+        .main-btn {
+            margin-top: 2rem;
+            padding: 2em;
+            font-size: 1em;
+            text-align: center;
+            span {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+}

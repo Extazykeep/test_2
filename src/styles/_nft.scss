@@ -1,0 +1,21 @@
+#nft {
+    position: relative;
+    overflow-x: hidden;
+    padding: 2em 0;
+    .nft-item {
+        &__image {
+            img {
+                max-width: 100%;
+                border-radius: 15px;
+            }
+        }
+        &__text {
+            max-width: 80%;
+            margin-top: 1em;
+        }
+    }
+    .common-block {
+        text-align: center;
+        font-size: 1.2em;
+    }
+}

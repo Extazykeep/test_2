@@ -1,0 +1,107 @@
+a {
+    text-decoration: none;
+    &:hover {
+        color: $secondary_color;
+    }
+}
+p {
+    margin-bottom: 0;
+}
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+body {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.common-bg {
+    position: relative;
+    background-color: #010122;
+    overflow: hidden;
+}
+.common-wrapper {
+    position: relative;
+    z-index: 2;
+    padding: 2em 0;
+    overflow: hidden;
+}
+.main-btn {
+    display: block;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    color: #9697e7;
+    width: 100%;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    background-image: url('../../assets/images/main-btn-bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+    &:hover {
+        filter: drop-shadow(2px 4px 4px #aa64ba);
+    }
+}
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid $secondary_color;
+    color: $main_text;
+    font-weight: 500;
+}
+.main-c {
+    color: $main_color;
+}
+.secondary-c {
+    color: $secondary_color;
+}
+.accent-c {
+    color: $accent_color;
+}
+.section-title {
+    color: #f3d9f2;
+    font-size: calc(1.4em + 0.7vw);
+    margin-bottom: 2em;
+}
+.section-description {
+    color: #f3d9f2;
+    margin-bottom: 1em;
+}
+
+.common-block {
+    background-color: rgba($color: #11258d, $alpha: 0.5);
+    border-radius: 1.25em;
+    padding: 2em;
+    margin: 1em 0;
+    height: 100%;
+    position: relative;
+    &__top {
+        position: absolute;
+        bottom: 100%;
+        left: 1em;
+        height: 10px;
+        min-width: calc(60px + 4vw);
+        border-radius: 0.5em;
+        background-color: $main_color;
+    }
+    &__bottom {
+        position: absolute;
+        right: 2em;
+        top: 100%;
+        display: flex;
+        div {
+            transform: skewX(-25deg);
+            height: 10px;
+            min-width: calc(30px + 3em);
+        }
+        div:first-child {
+            background-color: $main_color;
+            margin-right: 1rem;
+        }
+        div:last-child {
+            background-color: #74e0ed;
+            box-shadow: 0px 0px 8px 6px rgb(116 224 237 / 67%);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+#timer {
+    padding: 2em 0;
+    padding-bottom: 200px;
+    position: relative;
+    .bigger-background {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        img {
+            filter: brightness(0.7);
+        }
+    }
+    .section-description {
+        font-size: 1.15em;
+    }
+    .main-btn {
+        padding: 2em 4em;
+    }
+    .common-block {
+        p {
+            font-size: 1.2em;
+        }
+    }
+}

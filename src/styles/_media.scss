@@ -1,0 +1,164 @@
+@media (max-width: 1200px) {
+    #main {
+        .offer-text {
+            br {
+                display: none;
+            }
+        }
+    }
+    #crypto {
+        padding: 120px 0;
+    }
+    #became-bigger {
+        .bigger-items {
+            .common-block {
+                padding: 1em;
+            }
+        }
+    }
+    #timer .main-btn {
+        padding: 1em 2em;
+    }
+}
+@media (max-width: 992px) {
+    .main__offer .main-btn {
+        padding: 1em;
+        background-position: center;
+    }
+    #nft {
+        .common-block p {
+            br {
+                display: none;
+            }
+        }
+    }
+    #our-maximum {
+        .common-block {
+            padding: 1em;
+        }
+    }
+    #society-second {
+        .main-btn {
+            padding: 1em;
+        }
+    }
+    #timer {
+        .common-block {
+            padding: 1em !important;
+        }
+        .main-btn {
+            padding: 1em;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #who .who-intro .who-intro-content {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .main__welcome {
+        font-size: 1.3em;
+        margin-bottom: 2rem;
+    }
+    .main__description {
+        font-size: 1.1em;
+    }
+    #nft .nft-item__text {
+        max-width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .main__title {
+        font-size: calc(2.3em + 0.7vw);
+    }
+    #main {
+        .common-block {
+            padding: 0.5em;
+        }
+        .main__offer .offer-text {
+            font-size: 1.15em;
+            margin: 0.8em 0;
+        }
+        .main-btn {
+            margin-top: 1em;
+        }
+    }
+    #nft {
+        .common-block {
+            padding: 1em;
+            font-size: 1.1em;
+        }
+    }
+    #our-maximum {
+        padding: 1em 0;
+        .maximum-item {
+            flex-direction: column;
+        }
+        .main-btn {
+            padding: 1em 0.7em;
+        }
+    }
+    #who {
+        margin-top: 0;
+        .who-intro {
+            .who-intro-content {
+                top: 0%;
+                left: 0;
+                transform: none;
+                margin-bottom: 2em;
+            }
+        }
+        .who-content {
+            .common-block {
+                margin-top: 5em;
+                padding: 1em;
+            }
+        }
+        .main-btn {
+            padding: 1em;
+        }
+    }
+    #became-bigger .section-title {
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+    #society-second {
+        .common-block {
+            padding: 1em !important;
+        }
+    }
+    #timer {
+        padding: 0.5em 0;
+        .common-wrapper {
+            padding: 1em 0;
+        }
+    }
+}
+@media (max-width: 375px) {
+    #crypto {
+        .crypto-facts {
+            .crypto-fact-item__image {
+                max-width: 80px;
+            }
+            .crypto-fact-item__text {
+                font-size: 1em;
+            }
+        }
+        .common-block {
+            padding: 1em;
+            margin: 0;
+        }
+    }
+    #society-second .main-btn {
+        padding: 0.6em;
+    }
+    #timer .main-btn {
+        padding: 0.8em;
+        font-size: 0.9em;
+        img {
+            display: none;
+        }
+    }
+}

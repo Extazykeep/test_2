@@ -1,0 +1,41 @@
+#became-bigger {
+    padding: 2em 0;
+    position: relative;
+    .section-title {
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+    .bigger-items {
+        margin-top: 2em;
+    }
+    .bigger-item {
+        &__image {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1em;
+            img {
+                max-width: 100%;
+            }
+        }
+        &__text {
+            color: #9697e7;
+            font-size: 1.1em;
+        }
+    }
+    .common-second {
+        .common-block__bottom {
+            div:last-child {
+                background-color: #ff970b;
+                box-shadow: 0px 0px 8px 6px rgba($color: #ff970b, $alpha: 0.7);
+            }
+        }
+    }
+    .common-third {
+        .common-block__bottom {
+            div:last-child {
+                background-color: #fe038f;
+                box-shadow: 0px 0px 8px 6px rgba($color: #fe038f, $alpha: 0.7);
+            }
+        }
+    }
+}

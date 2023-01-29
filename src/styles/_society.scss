@@ -1,0 +1,24 @@
+.society {
+    color: #f3d9f2;
+
+    .common-block {
+        display: grid;
+        place-items: center;
+        font-size: 1.1em;
+        height: auto;
+    }
+    .society-description {
+        font-size: 1.15em;
+    }
+    h3 {
+        font-size: 1.3em;
+        font-weight: 300;
+    }
+}
+#society-second {
+    .common-block {
+        &__top {
+            background-color: #5b5aa0;
+        }
+    }
+}
